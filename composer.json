@@ -1,6 +1,6 @@
 {
     "name": "test/test",
-    "description": "bla bla",
+    "description": "Personnal learning - Create a .phar file with box-project",
     "require": {
         "php": "^7.2",
         "beberlei/assert": "^3.0"
