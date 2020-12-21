@@ -1,0 +1,16 @@
+{
+    "name": "test/test",
+    "description": "bla bla",
+    "require": {
+        "php": "^7.2",
+        "beberlei/assert": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Avonture\\Classes\\": "src/Classes/",
+            "Avonture\\": [ 
+                "src/" 
+            ]
+        }
+    }
+}

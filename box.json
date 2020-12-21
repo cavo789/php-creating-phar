@@ -1,0 +1,37 @@
+{
+    "banner": [
+        "Christophe",
+        "",
+        "My fake banner - Ipso Lorem"
+    ],
+    "alias": "test.phar",
+    "output": "bin/test.phar",
+    "check-requirements": false,
+    "force-autodiscovery": true,
+    "main": "index.php",
+    "files": [
+        "index.php"
+    ],
+    "directories": [
+        "src",
+        "vendor"
+    ],    
+    "stub": true,
+    "finder": [
+        {
+            "name": "*",
+            "exclude": ["Tests","test","Test","tests"],
+            "in": "vendor"
+        }
+    ],
+    "compression": "GZ",
+    "compactors": [
+        "KevinGH\\Box\\Compactor\\Php",
+        "KevinGH\\Box\\Compactor\\PhpScoper",
+        "KevinGH\\Box\\Compactor\\Json"
+    ],
+    "datetime": "release-date",
+    "blacklist": [
+        "box.phar"
+    ]
+}
