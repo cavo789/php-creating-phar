@@ -6,7 +6,6 @@
     ],
     "alias": "test.phar",
     "output": "bin/test.phar",
-    "check-requirements": false,
     "force-autodiscovery": true,
     "main": "index.php",
     "files": [
@@ -16,7 +15,6 @@
         "src",
         "vendor"
     ],    
-    "stub": true,
     "finder": [
         {
             "name": "*",
