@@ -99,3 +99,11 @@ vendor/
 ```
 
 Between brackets, you'll get the used compression; here it's: `[GZ]` (as defined in the `box.json` file).
+
+## Extra
+
+### Self-updater
+
+Not tested: [https://github.com/webmozart/phar-updater](https://github.com/webmozart/phar-updater)
+
+Seems to be an easy solution to provide a self-update feature to the phar.
