@@ -49,6 +49,10 @@ Don't include the file with a fixed path like `require_once './vendor/autoload.p
 
 The correct way to include the `autoload.php` file is, f.i., `require_once dirname(__DIR__) . '/vendor/autoload.php'`
 
+### Still problems with vendor
+
+If you've still a problem with the autoloading feature, make sure the dependency is correctly required in your project: in `require` and not `require-dev` f.i.
+
 ## See content of the .phar
 
 Type `php box.phar info -l bin/test.phar` on the command line to get infos about what is included in the archive:
